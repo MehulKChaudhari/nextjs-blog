@@ -8,8 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^10.0.0",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "classnames": "^2.2.6",
+    "date-fns": "^2.22.1",
+    "gray-matter": "^4.0.3",
+    "next": "^10.2.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
   }
 }
