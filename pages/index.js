@@ -24,8 +24,7 @@ export default function Home({ allPostsData }) {
         <p>
           Hey, I am Mehul. I am an undergrad studying Btech Computer science. I
           am learning web development at Neogcamp. I like to read blog related
-          to technology and I like to learn new things whenever I come across
-          some interesting things.{" "}
+          to technology.{" "}
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
