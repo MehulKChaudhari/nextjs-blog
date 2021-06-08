@@ -40,13 +40,12 @@ export default function Home({ allPostsData }) {
           <ul className={utilStyles.list}>
             {allPostsData.map(({ id, date, title }) => (
               <li className={utilStyles.listItem} key={id}>
-                <Link href={`/posts/${id}`}>
-                  <a>{title}</a>
-                </Link>
+                <h4>{title}</h4>
                 <br />
                 <small className={utilStyles.lightText}>
                   <Date dateString={date} />
                 </small>
+                <Link href={`/posts/${id}`}><a className={utilStyles.readMoreLink}>Read More</a></Link>
               </li>
             ))}
           </ul>
@@ -58,7 +57,7 @@ export default function Home({ allPostsData }) {
             href="https://www.github.com/mehulkchaudhari/"
             className={`${utilStyles.github} ${utilStyles.socialLinks}`}
           >
-            <FontAwesomeIcon icon={faGithub}  />
+            <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
             href="https://twitter.com/MehulKChaudhari"

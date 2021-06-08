@@ -4,7 +4,7 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
-  color: #ee9611;
+  color: #BE185D;
 }
 
 .headingXl {
@@ -24,6 +24,7 @@
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
+  color: #D1D5DB;
 }
 
 .borderCircle {
@@ -48,9 +49,11 @@
 .listItem {
   margin: 0 0 1.25rem;
   border: 2px solid black;
-  height: 10rem;
+  height: auto;
   padding:2rem ;
+  color: #93C5FD;
 }
+
 .listItem:hover {
   border: 2px solid rgb(23, 73, 235);
 }
@@ -98,4 +101,18 @@
   width: 3rem;
 }
 
+.readMoreLink{
+  padding: 0.5rem;
+  border-radius: 2rem;
+  background: #4F46E5;
+  text-decoration: none;
+  color: #D1D5DB;
+  font-size: 1rem;
+  margin: 1rem;
+  
+}
 
+.readMoreLink:hover{
+  color: #D1D5DB;
+  padding: 0.75rem;
+}
