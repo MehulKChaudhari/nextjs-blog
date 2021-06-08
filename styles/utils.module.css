@@ -27,6 +27,7 @@
 
 .borderCircle {
   border-radius: 9999px;
+  border: 2rem solid rgb(238, 19, 56);
 }
 
 .colorInherit {
@@ -45,8 +46,55 @@
 
 .listItem {
   margin: 0 0 1.25rem;
+  border: 2px solid black;
+  height: 10rem;
+  padding:2rem ;
+}
+.listItem:hover {
+  border: 2px solid rgb(23, 73, 235);
 }
 
 .lightText {
   color: #666;
 }
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(27, 27, 27);
+  height: 10vh;
+  
+}
+.socialLinks {
+  width: 2rem;
+  margin: 1rem;
+}
+
+.github {
+  color: #b064f7;
+}
+
+.linkedin {
+  color: #4968ad;
+}
+
+.twitter {
+  color: #49a1eb;
+}
+.github:hover {
+  color: #b064f7;
+  width: 3rem;
+}
+
+.linkedin:hover{
+  color: #4968ad;
+  width:3rem;
+}
+
+.twitter:hover {
+  color: #49a1eb;
+  width: 3rem;
+}
+
+
